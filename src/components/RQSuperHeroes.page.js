@@ -10,13 +10,13 @@ export const RQSuperHeroesPage = () => {
     'super-heroes',
     fetchSuperheroes,
     {
-       refetchOnMount: true,
-       refetchOnWindowFocus: 'always',
+       refetchInterval: 2000,
+       refetchIntervalInBackground: true,
     }
-  );
+  );git
 
   console.log({ isLoading, isFetching });
-  
+
   if (isLoading) {
     return <h2>Loading...</h2>;
   }
