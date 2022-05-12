@@ -13,7 +13,7 @@ export const RQSuperHeroesPage = () => {
        refetchInterval: 2000,
        refetchIntervalInBackground: true,
     }
-  );git
+  );
 
   console.log({ isLoading, isFetching });
 
