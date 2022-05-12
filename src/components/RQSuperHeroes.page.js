@@ -10,14 +10,13 @@ export const RQSuperHeroesPage = () => {
     'super-heroes',
     fetchSuperheroes,
     {
-        staleTime: 3000
+       refetchOnMount: true,
+       refetchOnWindowFocus: 'always',
     }
   );
 
   console.log({ isLoading, isFetching });
-  console.log('10' + 1);
-  console.log('10' - 1);
-  console.log('=====================');
+  
   if (isLoading) {
     return <h2>Loading...</h2>;
   }
