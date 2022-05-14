@@ -25,5 +25,47 @@
             "name": "Spider Man",
             "alterEgo": "Peter Parker"
         }
+    ],
+    "friends": [
+        {
+            "id": 1,
+            "name": "Chandler Bing"
+        },
+        {
+            "id": 2,
+            "name": "Joey Tribbiani"
+        },
+        {
+            "id": 3,
+            "name": "Rachel Green"
+        },
+        {
+            "id": 4,
+            "name": "Tom Hanks"
+        },
+        {
+            "id": 5,
+            "name": "Bruce McConkie"
+        },
+        {
+            "id": 6,
+            "name": "Jerry Miller"
+        },
+        {
+            "id": 7,
+            "name": "Thomas Jefferson"
+        },
+        {
+            "id": 8,
+            "name": "Teddy Sherigam"
+        },
+        {
+            "id": 9,
+            "name": "Roman Abrahamovic"
+        },
+        {
+            "id": 10,
+            "name": "Shakes Bill"
+        }
     ]
 }
