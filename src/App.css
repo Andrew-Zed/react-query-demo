@@ -21,6 +21,8 @@ nav ul li {
 }
 
 
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -49,4 +51,35 @@ nav ul li {
   to {
     transform: rotate(360deg);
   }
+}
+
+.modal {
+  position: auto;
+  left: 2;
+  top: 2;
+  right: 2;
+  bottom: 2;
+  background-color: (0, 0, 0, 0.5);
+  display: flex;
+  align-items: enter;
+  justify-content: center;
+}
+
+.modal-content {
+  width: 500px;
+  background-color: #fff;
+}
+
+.modal-header, .modal-footer {
+  padding: 10px;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal-body {
+  padding: 10;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
